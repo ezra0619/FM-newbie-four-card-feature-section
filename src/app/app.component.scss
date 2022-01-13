@@ -1,10 +1,4 @@
 
-$svg-one: "/assets/icon-supervisor.svg";
-$svg-two: "/assets/icon-team-builder.svg";
-$svg-three: "/assets/icon-karma.svg";
-$svg-four: "/assets/icon-calculator.svg";
-
-
 #main-container {
     height: 100vh;
     width: 100%;
@@ -123,17 +117,17 @@ $svg-four: "/assets/icon-calculator.svg";
                 bottom: 40px;
             }
 
-            .item-1-svgImg {
-                background: url($svg-one);
-            }
+            // .item-1-svgImg {
+            //     background: url(/assets/icon-supervisor.svg);
+            // }
             .item-2-svgImg {
-                background: url($svg-two);
+                background: url(/assets/icon-team-builder.svg);
             }
             .item-3-svgImg {
-                background: url($svg-three);
+                background: url(/assets/icon-karma.svg);
             }
             .item-4-svgImg {
-                background: url($svg-four);
+                background: url(/assets/icon-calculator.svg);
             }
         }
 
